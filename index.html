@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagen/favicon.ico" type="image/x-icon">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <a href="#" class="logo">
+                <img src="Imagen/logo.png" alt="Logotipo Educativo">
+            </a>
+        </nav>
+    </header>
+    <main">
+        <section class="section">
+            <div class="section__texto">
+                <label for="section__area"></label>
+                <textarea id="entrada" class="section__area" cols="30" rows="10" placeholder="Ingrese el texto aqui:"></textarea>
+            </div>
+            <div class="section__info">
+                <img class="section__i" src="Imagen/bx-error-circle.svg" alt="Exclamacion">
+                <h6 class="section__h6">Solo letras minúsculas y sin acentos.</h6>
+            </div>
+            <div class="section__boton">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="section__respuesta">
+            <div class="section__txt">
+                <label for="section__text"></label>
+                <textarea readonly id="salida" class="section__text" id="" cols="30" rows="10"></textarea>
+                <div class="section__mensaje">
+                    <h4 class="section__h4">Ningún mensaje fue encontrado</h4>
+                    <p class="section__p">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+            <div class="section__copia">
+                <button id="show" class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__f">
+            <h5>&copy; 2023 <span>Hu He</span></h5>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

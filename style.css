@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5FC;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 9.5vh;
+    max-height: 5.4em;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo img{
+    width: 52%;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 53vh;
+}
+
+.section__texto{
+    display: flex;
+    justify-content: stretch;
+    width: 91vw;
+    height: 33vh;
+    max-height: 37.5em;
+    padding: 1vh 4.4vw;
+}
+
+.section__area{
+    font-family: 'Inter', sans-serif;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 1.4em;
+    color: #0A3871;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+::placeholder{ color: #0A3871; }
+  .text_area:focus{
+    outline: none;
+ }
+
+.section__info{
+    display: flex;
+    width: auto;
+    height: 2.5vh;
+    max-height: 1.25em;
+    padding: .5vh 4.4vw;
+    align-items: center;
+    gap: .6em;
+}
+
+.section__i{
+    width: 4.5%;
+}
+
+.section__h6{
+    font-family: 'Inter', sans-serif;
+    font-size: .71em;
+}
+
+.section__boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .5vh 4.4vw;
+    gap: .9em;
+}
+
+.btn-encriptar, .btn-desencriptar, .btn-copiar{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+
+.btn-encriptar{
+    background: #0A3871;
+    color: #FFFFFF;
+    width: 80vw;
+    max-width: 22em;
+    height: 6vh;
+    max-height: 4.4em;
+    padding: 1.2vh 4.5vw;
+}
+
+.btn-desencriptar{
+    padding: .5vh 4.4vw;
+    width: 80vw;
+    max-width: 22em;
+    height: 6vh;
+    max-height: 4.4em;
+    border: 1px solid #0A3871;
+}
+
+.section__respuesta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 87.2vw;
+    height: 46vh;
+    max-height: 18.6em;
+    padding: 2vh 6.4vw;
+    position: relative;
+}
+ 
+.section__txt{
+    background-color: #fbfcfc;
+    display: flex;
+    justify-content: stretch;
+    position: relative;
+    width: 75vw;
+    height: 39vh;
+    padding: 2vh 6.4vw;
+    position: relative;
+    border-radius: 2em;
+}
+
+.section__text{
+    background-color: transparent;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 110%;
+    text-align: center;
+    color: #0A3871;
+    resize: none;
+    border: none;
+    outline: none;
+    width: 48.8vh;
+    height: 42.4vw;
+    overflow: auto;
+    top: 2em;
+}
+
+.section__text:focus {
+    outline: none;
+}
+
+.section__mensaje{
+    background-color: transparent;
+    position: absolute;
+    width: 70.13%;
+    height: 52%;
+    padding: 3.2vh 7.7vw;
+
+}
+
+.section__h4{
+    background-color: #fbfcfc;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 100%;
+    text-align: center;
+    color: #343A40;
+}
+
+.section__p{
+    background-color: #fbfcfc;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 120%;
+    text-align: center;
+    color: #495057;
+}
+
+.section__copia{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.2vh 4.5vw;
+    gap: 24px;
+    position: absolute;
+    margin-top: 12.5em;
+    margin-left: .75em;
+}
+
+.btn-copiar{
+    display: none;
+    background-color: #fbfcfc;
+    color: #0A3871;
+    width: 72vw;
+    max-width: 19em;
+    height: 6vh;
+    max-height: 4.2em;
+    padding: 1.2vh 4.5vw;
+    border: 1px solid #0A3871;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 8.5vh;
+}
+
+@media (min-width: 375px){
+
+}
+
+@media (min-width: 720px){
+    header{
+        width: 100vw;
+        height: 9vh;
+    }
+    
+    .header__nav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .logo img{
+        width: 58%;
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+        height: 54vh;
+    }
+
+    .section__texto{
+        display: flex;
+        justify-content: stretch;
+        width: 90vw;
+        height: 45vh;
+        padding: 2.3vh 4.9vw;
+    }
+
+    .section__area{
+        width: 100%;
+        height: 100%;
+    }
+
+    .section__info{
+        height: 1.2vh;
+        padding: .5vh 4.9vw;
+    }
+
+    .section__i{
+        width: 2.6%;
+    }
+
+    .section__boton{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: .3vh 7vw;
+        gap: .9em;
+    }
+
+    .btn-encriptar{
+        width: 75vw;
+        height: 5.2vh;
+    }
+    
+    .btn-desencriptar{
+        width: 75vw;
+        height: 5.2vh;
+    }
+
+    .section__respuesta{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 87.2vw;
+        height: 29vh;
+        padding-bottom: 0;
+    }
+
+    .section__txt{
+        position: relative;
+        width: auto;
+        height: 14.5vh;
+        padding: 40px;
+    }
+
+    .section__text{
+        width: 90vw;
+        height: 14vh;
+    }
+
+    .section__mensaje{
+        background-color: transparent;
+        position: absolute;
+        width: 81.3%;
+        height: 31.3%;
+        padding: 32px;
+    }
+
+    .section__copia{
+        margin-top: 9.3em;
+        margin-left: 8.76em;
+    }
+
+    .btn-copiar{
+        width: 45vw;
+        height: 4.6vh;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    header{
+        width: 100vw;
+        height: 12vh;
+    }
+    
+    .header__nav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .logo img{
+        width: 56%;
+    }
+
+    .section{
+        display: flex;
+        flex-flow: row wrap;
+        width: 64vw;
+        height: 78vh;
+    }
+
+    .section__txt{
+        height: 89vh;
+    }
+
+    .section__texto{
+        width: 54vw;
+        height: 60vh;
+        padding-left: 8.7vw;
+    }
+
+    .section__area{
+        width: 100%;
+        height: 100%;
+    }  
+
+    .section__info{
+        height: 4.5vh;
+        padding-left: 8.7vw;
+    }
+
+    .section__i{
+        width: 6.6%;
+    }
+
+    .section__h6{
+        font-size: .75em;
+    }
+
+    .section__boton{
+        width: 46.6vw;
+        padding-left: 9.9vw;
+        min-height: ;
+    }
+
+    .btn-encriptar{
+        width: 75vw;
+        height: 7vh;
+    }
+    
+    .btn-desencriptar{
+        width: 75vw;
+        height: 7vh;
+    }
+
+    .section__respuesta{
+        display: flex;
+        flex-flow: row-reverse wrap;
+        position: absolute;
+        top: 12vh;
+        right: 0;
+        width: 22.2vw;
+        height: 72vh;
+        max-height: 45em;
+    }
+
+    .section__txt{
+        position: absolute;
+        width: 25vw;
+        height: 83.5vh;
+        max-height: 49.1em;
+        top: -2.25em;
+        padding: 0
+    }
+
+    .section__text{
+        background-image: url("Imagen/emote.png");
+        background-repeat: no-repeat;
+        background-size: 65%;
+        background-position: center;
+        width: 25vw;
+        height: 63vh;
+        padding-top: 3.25em;
+        /*position: absolute;*/
+    }
+
+    .section__mensaje{
+        width: 20vw;
+        height: 30vh;
+        top: 47vh;
+        /*padding: 32px;*/
+    }
+
+    .section__h4{
+        font-size: 1.3em;
+    }
+    .section__p{
+        font-size: 1em;
+    }
+
+    .section__copia{
+        width: 10vw;
+        height: 17vh;
+        padding-top: 26.2vh;
+        padding-left: 1.5vw ;
+        bottom: -3.33em;
+        right: 8.08em;
+        left: 9.25em;
+        margin-left: -0.24em;
+    }
+
+    .btn-copiar{
+        position: absolute;
+        width: 18vw;
+        height: 6vh;
+}
