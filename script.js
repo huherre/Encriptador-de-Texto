@@ -43,7 +43,7 @@ function textoValido(){
 }
 
 function encriptar(strEncriptado){
-    let key = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat]"]];
+    let key = [["e", "enter"], ["o", "ober"], ["i", "imes"], ["a", "ai"], ["u", "ufat"]];
     strEncriptado = strEncriptado.toLowerCase();
 
     for(let i = 0; i < key.length; i++){
@@ -56,7 +56,7 @@ function encriptar(strEncriptado){
 }
 
 function desencriptar(strDesencriptado){
-    let key = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat]"]];
+    let key = [["e", "enter"], ["o", "ober"], ["i", "imes"], ["a", "ai"], ["u", "ufat"]];
     strDesencriptado = strDesencriptado.toLowerCase();
 
     for(let i = 0; i < key.length; i++){
